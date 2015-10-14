@@ -1,52 +1,164 @@
 <!DOCTYPE html>
 <html>
-
-<body style="text-align:center;font-family:標楷體">
-
-
 <head>
 <style>
 #header {
-    font-size:200%;
-    background-color:gray  ;
-    color:white   ;
-    text-align:center;
-    padding:1px;
+       z-index: 2; 
+           font-size:200%;
+	       text-align:center;
+	           padding:1px;
 }
 #paragraph {
-    font-size:150%;
-    background-color:gray   ;
-    color:white   ;
-    text-align:center;
-    padding:5px;
+   z-index: 2; 
+       font-size:150%;
+           text-align:center;
+	       padding:5px;
 }
-</head>
+#sixth {
+    z-index: 1; 
+      background-color:#33FFFF;
+        height:1420px;
+	  width:30px;
+	    float:left;
+	      margin-left: 30px;
+	        opacity: 0.5;
+		  position:absolute;
+}   
+#fifth {
+   z-index: 1; 
+     background-color:#33CCFF;
+       height:1420px;
+         width:30px;
+	   float:left;
+	     margin-left: 30px;
+	       opacity: 0.5;
+	         position:absolute;
+}   
+#fourth {
+   z-index: 1; 
+     background-color:#3399FF;
+       height:1420px;
+         width:30px;
+	   float:left;
+	     margin-left: 30px;
+	       opacity: 0.5;
+	         position:absolute;
+} 
+#third {
+   z-index: 1; 
+     background-color:#3366FF;
+       height:1420px;
+         width:30px;
+	   float:left;
+	     margin-left: 30px;
+	       opacity: 0.5;
+	          position:absolute;
+} 
+#second {
+   z-index: 1; 
+     background-color:#3333FF;
+       height:1420px;
+         width:30px;
+	   float:left;
+	     margin-left: 30px;
+	       opacity: 0.5;
+	         position:absolute;
+}  
+#first {
+   z-index: 1; 
+     background-color:#3300FF;
+       height:1420px;
+         width:30px;
+	   float:left;
+	     opacity: 0.5;
+	       position:absolute;
+	         top:0px;
+}
 </style>
-
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+        $("#first").hover(function(){
+	         $(this).animate({width: '700px',opacity: '0.8'}, "slow");
+		     },
+		         function(){
+			        $(this).animate({width: '30px',opacity: '0.5'}, "slow");
+				    }); 
+	});
+$(document).ready(function(){
+        $("#second").hover(function(){
+	         $(this).animate({width: '670px',opacity: '0.8'}, "slow");
+		     },
+		         function(){
+			        $(this).animate({width: '30px',opacity: '0.5'}, "slow");
+				    }); 
+	});
+$(document).ready(function(){
+        $("#third").hover(function(){
+	         $(this).animate({width: '640px',opacity: '0.8'}, "slow");
+		     },
+		         function(){
+			        $(this).animate({width: '30px',opacity: '0.5'}, "slow");
+				    }); 
+	});
+$(document).ready(function(){
+        $("#fourth").hover(function(){
+	         $(this).animate({width: '610px',opacity: '0.8'}, "slow");
+		     },
+		         function(){
+			        $(this).animate({width: '30px',opacity: '0.5'}, "slow");
+				    }); 
+	});
+$(document).ready(function(){
+        $("#fifth").hover(function(){
+	         $(this).animate({width: '580px',opacity: '0.8'}, "slow");
+		     },
+		         function(){
+			        $(this).animate({width: '30px',opacity: '0.5'}, "slow");
+				    }); 
+	});
+$(document).ready(function(){
+        $("#sixth").hover(function(){
+	         $(this).animate({width: '550px',opacity: '0.8'}, "slow");
+		     },
+		         function(){
+			        $(this).animate({width: '30px',opacity: '0.5'}, "slow");
+				    }); 
+	});
+</script>
+</head>
+<body style="text-align:center;font-family:標楷體">
 <div id="header">
-<h1>履歷</h1>
+  <marquee>維維履的履歷</marquee>
 </div>
 
 
 <div id="paragraph">
-<h3>&#9763姓名:</h3>
-<pre>     李牧維</pre>
-<h3>&#9763生日:</h3>
-<pre>     1995/02/01</pre>
-<h3>&#9763星座:</h3>
-<pre>     水瓶座</pre>
-<h3>&#9763血型:</h3>
-<pre>     O型</pre>
-<h3>&#9763興趣:</h3>
-<pre>       把妹 看妹 玩妹</pre>
-<h3>&#9763家鄉:</h3>
-<pre>     台北市</pre>
-<div id="fb-root"></div><script>(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.3";  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script><div class="fb-post" data-href="https://www.facebook.com/photo.php?fbid=834911456587132&amp;set=a.107766905968261.12081.100002048557500&amp;type=3" data-width="500"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/photo.php?fbid=834911456587132&amp;set=a.107766905968261.12081.100002048557500&amp;type=3">Posted by <a href="https://www.facebook.com/jeremy51307">李牧維</a> on&nbsp;<a href="https://www.facebook.com/photo.php?fbid=834911456587132&amp;set=a.107766905968261.12081.100002048557500&amp;type=3">2015年4月12日</a></blockquote></div></div>
+  <h3>&#9763姓名:</h3>
+  <pre>     李牧維</pre>
+  <h3>&#9763生日:</h3>
+  <pre>     1995/02/01</pre>
+  <h3>&#9763星座:</h3>
+  <pre>     水瓶座</pre>
+  <h3>&#9763血型:</h3>
+  <pre>     O型</pre>
+  <h3>&#9763興趣:</h3>
+  <pre>       把妹 看妹 玩妹</pre>
+  <h3>&#9763家鄉:</h3>
+  <pre>     台北市</pre>
+  <div id="fb-root"></div><script>(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.3";  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script><div class="fb-post" data-href="https://www.facebook.com/photo.php?fbid=834911456587132&amp;set=a.107766905968261.12081.100002048557500&amp;type=3" data-width="500"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/photo.php?fbid=834911456587132&amp;set=a.107766905968261.12081.100002048557500&amp;type=3">Posted by <a href="https://www.facebook.com/jeremy51307">李牧維</a> on&nbsp;<a href="https://www.facebook.com/photo.php?fbid=834911456587132&amp;set=a.107766905968261.12081.100002048557500&amp;type=3">2015年4月12日</a></blockquote></div></div>
 </div>
 
 
 <embed src="http://picosong.com/SVAm"start=true hidden=true loop=true>
 
-</body>
-</html>
+  <div id="first">
+    <div id="second">
+      <div id="third">
+	<div id="fourth">
+	  <div id="fifth">
+	    <div id="sixth">
+	      </body>
+	      </html>
+
+ 

@@ -1,170 +1,38 @@
-<!DOCTYPE html>
+
+<!doctype html>
 <html>
 <head>
-<style>
-#header {
-       z-index: 2; 
-           font-size:200%;
-	       text-align:center;
-	           padding:1px;
-}
-#paragraph {
-   z-index: 2; 
-       font-size:150%;
-           text-align:center;
-	       padding:5px;
-}
-#sixth {
-    z-index: 1; 
-      background-color:#33FFFF;
-        height:1566.44px;
-	  width:30px;
-	    float:left;
-	      margin-left: 30px;
-	        opacity: 0.5;
-		  position:absolute;
-}   
-#fifth {
-   z-index: 1; 
-     background-color:#33CCFF;
-       height:1566.44px;
-         width:30px;
-	   float:left;
-	     margin-left: 30px;
-	       opacity: 0.5;
-	         position:absolute;
-}   
-#fourth {
-   z-index: 1; 
-     background-color:#3399FF;
-       height:1566.44px;
-         width:30px;
-	   float:left;
-	     margin-left: 30px;
-	       opacity: 0.5;
-	         position:absolute;
-} 
-#third {
-   z-index: 1; 
-     background-color:#3366FF;
-       height:1566.44px;
-         width:30px;
-	   float:left;
-	     margin-left: 30px;
-	       opacity: 0.5;
-	          position:absolute;
-} 
-#second {
-   z-index: 1; 
-     background-color:#3333FF;
-       height:1566.44px;
-         width:30px;
-	   float:left;
-	     margin-left: 30px;
-	       opacity: 0.5;
-	         position:absolute;
-}  
-#first {
-   z-index: 1; 
-     background-color:#3300FF;
-       height:1566.44px;
-         width:30px;
-	   float:left;
-	     opacity: 0.5;
-	       position:absolute;
-	         top:0px;
-}
-</style>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script>
-$(document).ready(function(){
-        $("#first").hover(function(){
-	         $(this).animate({width: '1387px',opacity: '0.8'}, "slow");
-		     },
-		         function(){
-			        $(this).animate({width: '30px',opacity: '0.5'}, "slow");
-				    }); 
-	});
-$(document).ready(function(){
-        $("#second").hover(function(){
-	         $(this).animate({width: '1357px',opacity: '0.8'}, "slow");
-		     },
-		         function(){
-			        $(this).animate({width: '30px',opacity: '0.5'}, "slow");
-				    }); 
-	});
-$(document).ready(function(){
-        $("#third").hover(function(){
-	         $(this).animate({width: '1327px',opacity: '0.8'}, "slow");
-		     },
-		         function(){
-			        $(this).animate({width: '30px',opacity: '0.5'}, "slow");
-				    }); 
-	});
-$(document).ready(function(){
-        $("#fourth").hover(function(){
-	         $(this).animate({width: '1297px',opacity: '0.8'}, "slow");
-		     },
-		         function(){
-			        $(this).animate({width: '30px',opacity: '0.5'}, "slow");
-				    }); 
-	});
-$(document).ready(function(){
-        $("#fifth").hover(function(){
-	         $(this).animate({width: '1267px',opacity: '0.8'}, "slow");
-		     },
-		         function(){
-			        $(this).animate({width: '30px',opacity: '0.5'}, "slow");
-				    }); 
-	});
-$(document).ready(function(){
-        $("#sixth").hover(function(){
-	         $(this).animate({width: '1237px',opacity: '0.8'}, "slow");
-		     },
-		         function(){
-			        $(this).animate({width: '30px',opacity: '0.5'}, "slow");
-				    }); 
-	});
-</script>
+<meta charset="utf-8">
+<link rel="stylesheet" href="./test.css">
+<title>無標題文件</title>
 </head>
-<body style="text-align:center;font-family:標楷體">
-<div id="header">
-  <marquee>維維的履歷</marquee>
+<body>
+<div id="container">
+    <nav>
+    <div id="nav-content">
+    <a href="">Mango</a>
+    <!--end .nav-content-->
+    </div>
+    <div id="left-block">
+      <ul id"menu">
+      <li><a href="#">連結一</a></li>
+      <li><a href="#">連結二</a></li>
+      <li><a href="#">連結三</a></li>
+      <li><a href="#">連結四</a></li>
+      </ul>
+      <p></p>
+     <!--end .left-block"-->
+    </div>
+    </nav>
+    <div id="content">
+    <div id="name-themango"></div>
+    <div id="about-themango"></div>
+    <div id="pic-themango"></div>
+    <div id="shop-themango"></div>
+    <div id="other"></div>
+    </div>
+    <div id="footer">
+    <p></p>
 </div>
-
-
-<div id="paragraph">
-  <h3>&#9763姓名:</h3>
-  <pre>     李牧維</pre>
-  <h3>&#9763生日:</h3>
-  <pre>     1995/02/01</pre>
-  <h3>&#9763星座:</h3>
-  <pre>     水瓶座</pre>
-  <h3>&#9763血型:</h3>
-  <pre>     O型</pre>
-  <h3>&#9763學歷:</h3>
-  <pre>
-   光復國小
-
-   仁愛國中
-
-   中崙高中
-
-   成功大學
-  </pre>
-  <h3>&#9763家鄉:</h3>
-  <pre>     台北市</pre>
-  <div id="fb-root"></div><script>(function(d, s, id) {  var js, fjs = d.getElementsByTagName(s)[0];  if (d.getElementById(id)) return;  js = d.createElement(s); js.id = id;  js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.3";  fjs.parentNode.insertBefore(js, fjs);}(document, 'script', 'facebook-jssdk'));</script><div class="fb-post" data-href="https://www.facebook.com/photo.php?fbid=834911456587132&amp;set=a.107766905968261.12081.100002048557500&amp;type=3" data-width="500"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/photo.php?fbid=834911456587132&amp;set=a.107766905968261.12081.100002048557500&amp;type=3">Posted by <a href="https://www.facebook.com/jeremy51307">李牧維</a> on&nbsp;<a href="https://www.facebook.com/photo.php?fbid=834911456587132&amp;set=a.107766905968261.12081.100002048557500&amp;type=3">2015年4月12日</a></blockquote></div></div>
-</div>
-
-
-<embed src="http://picosong.com/SVAm"start=true hidden=true loop=true>
-
-  <div id="first">
-    <div id="second">
-      <div id="third">
-	<div id="fourth">
-	  <div id="fifth">
-	    <div id="sixth">
-	      </body>
-	      </html>
+</body>
+</html>

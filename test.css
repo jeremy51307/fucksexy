@@ -1,0 +1,17 @@
+#container{
+  width: 100%;
+  max-width: 1260px;/* 建議您使用最大寬度，如此版面在大型螢幕>
+  min-width: 780px;/* 建議您使用最小寬度，如此版面在大型螢幕上
+  background-color: #FFF;
+  margin: 0 auto; /* 兩側的自動值與寬度結合後，版面便會置中對>
+}
+#nav-content{
+  background-color:#FF3;
+}
+#left-block{
+  float: left;
+  width: 20%;
+  background-color: #FFF;
+  color:#F60;
+  padding-bottom: 10px;
+}

@@ -1,4 +1,5 @@
-ner{
+
+dy, #container{
   	height: 100%;
       }
 
@@ -47,7 +48,7 @@ ner{
 																									width:81.7%;
 																										height:100%;
 																											float:right;
-																												background-color:gray;
+																												background-color:none;
 																													padding:1%;
 																														margin:0;
 																													      }
@@ -61,7 +62,7 @@ ner{
 																																			position:absolute; 
 																																				width:40%;
 																																					height:50px;
-																																						background-color:red;
+																																						background-color:none;
 																																							color:white;
 																																								margin-top:5px;
 																																								    margin-left:10px;
@@ -80,7 +81,7 @@ ner{
 																																																float:right;
 																																																	width:40%;
 																																																	    margin:5px 5px 0px 5px;
-																																																	    	background-color:brown;
+																																																	    	background-color:none;
 																																																			font-size:15px;
 																																																		      }
 																																																		      #shop-themango{
@@ -95,7 +96,7 @@ ner{
 																																																										padding:10px;
 																																																											top:80%;
 																																																												left:52.5%;
-																																																													background-color:green;
+																																																													background-color:none;
 																																																												      }
 																																																												      ul, ol, dl { /* 由於瀏覽器之間的差異，最佳作法是在清單中使用零寬度的欄位間隔及邊界。為了保持一致，您可以在這裡指定所要的量，或在清單包含的清單項目 (LI、DT、DD) 上指定所要的量。請記住，除非您寫入較為特定的選取器，否則在此執行的作業將重疊顯示到 .nav 清單。 */
 																																																														padding: 0;
